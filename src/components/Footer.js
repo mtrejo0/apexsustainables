@@ -16,10 +16,7 @@ const Footer = () => {
                         <div className="box-border border-b-4 border-blue-900 p-8 bg-gray-200 text-gray-600 text-center rounded-lg xl:w-80 mx-auto">
                             <h3 className="font-bold text-4xl mb-4">Apex Sustainables</h3>
                             <div className='text-md font-medium text-gray-600'>
-                                <h5>Molad e Konsult</h5>
-                                <p>Ilo Awela,</p>
-                                <p>Ota,</p>
-                                <p>Ogun State.</p>
+                                
                             </div>
                         </div>
                     </div>
@@ -31,9 +28,9 @@ const Footer = () => {
                         <li className="mb-2">
                             <HashLink to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">About</HashLink>
                         </li>
-                        <li className="mb-2">
+                        {/* <li className="mb-2">
                             <HashLink to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Services</HashLink>
-                        </li>
+                        </li> */}
                         <li className="mb-2">
                             <HashLink to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Contact</HashLink>
                         </li>                            
@@ -41,7 +38,7 @@ const Footer = () => {
                     </div>
 
                     {/* 3rd block */}
-                    <div className="col-span-6 md:col-span-6 lg:col-span-4 mx-auto">
+                    {/* <div className="col-span-6 md:col-span-6 lg:col-span-4 mx-auto">
                         <h6 className="text-[#013289] text-xl font-bold mb-4">OUR SERVICES</h6>
                         <ul className="text-md">
                         <li className="mb-2">
@@ -57,7 +54,7 @@ const Footer = () => {
                             <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">General IT Consultations</Link>
                         </li>
                         </ul>
-                    </div>
+                    </div> */}
 
                     {/* 4th block */}
                     <div className="col-span-12 text-center mx-auto lg:col-span-3 font-bold uppercase text-blue-900">
